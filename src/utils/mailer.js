@@ -1,28 +1,28 @@
-const nodemailer = require('nodemailer')
+const nodemailer = require('nodemailer');
 
 const transporter = nodemailer.createTransport({
-  host: process.env.SMTP_HOST,
-  port: process.env.SMTP_PORT,
-  secure: true,
-  auth: {
-    user: process.env.SMTP_USER,
-    pass: process.env.SMTP_PASS,
-  },
-})
+	host: process.env.SMTP_HOST,
+	port: process.env.SMTP_PORT,
+	secure: true,
+	auth: {
+		user: process.env.SMTP_USER,
+		pass: process.env.SMTP_PASS,
+	},
+});
 
 const verify = async (transporter) => {
-  const connection = await transporter.verify()
-  if (connection) {
-    console.log('Server is ready to take our messages')
-  }
-}
+	const connection = await transporter.verify();
+	if (connection) {
+		console.log('Server is ready to take our messages');
+	}
+};
 
 const welcome = (user) => {
-  return {
-    from: `"${process.env.SMTP_USERNAME}"<${process.env.SMTP_USER}`,
-    to: user.email,
-    subject: 'Welcome to Sillevon',
-    html: `
+	return {
+		from: `"${process.env.SMTP_USERNAME}"<${process.env.SMTP_USER}`,
+		to: user.email,
+		subject: 'Welcome to Sillevon',
+		html: `
     <body styles={{display: 'flex', justify-content: 'center', align-items: 'center'}}>
       <h1>Welcome to sillevon ${user.name}</h1>
       <p>
@@ -30,16 +30,16 @@ const welcome = (user) => {
       </p>
     </body>
   `,
-    text: `Welcome ${user.name}`,
-  }
-}
+		text: `Welcome ${user.name}`,
+	};
+};
 
 const contractAlert = (client, artist) => {
-  return {
-    from: `"${process.env.SMTP_USERNAME}"<${process.env.SMTP_USER}`,
-    to: artist.email,
-    subject: 'Contract notification',
-    html: `
+	return {
+		from: `"${process.env.SMTP_USERNAME}"<${process.env.SMTP_USER}`,
+		to: artist.email,
+		subject: 'Contract notification',
+		html: `
     <body styles={{display: 'flex', justify-content: 'center', align-items: 'center'}}>
       <h1>Hello, ${artist.name},</h1>
       <p>
@@ -47,15 +47,15 @@ const contractAlert = (client, artist) => {
       </p>
     </body>
   `,
-    text: `Go to your profile, you have notifications ${artist.name}`,
-  }
-}
+		text: `Go to your profile, you have notifications ${artist.name}`,
+	};
+};
 const contractConfirmation = (client, artist) => {
-  return {
-    from: `"${process.env.SMTP_USERNAME}"<${process.env.SMTP_USER}`,
-    to: artist.email,
-    subject: 'Contract notification',
-    html: `
+	return {
+		from: `"${process.env.SMTP_USERNAME}"<${process.env.SMTP_USER}`,
+		to: artist.email,
+		subject: 'Contract notification',
+		html: `
     <body styles={{display: 'flex', justify-content: 'center', align-items: 'center'}}>
       <h1>Hello, ${artist.name},</h1>
       <p>
@@ -63,16 +63,16 @@ const contractConfirmation = (client, artist) => {
       </p>
     </body>
   `,
-    text: `Go to your profile, you have notifications ${artist.name}`,
-  }
-}
+		text: `Go to your profile, you have notifications ${artist.name}`,
+	};
+};
 
 const connectionRequest = (artist, client) => {
-  return {
-    from: `"${process.env.SMTP_USERNAME}"<${process.env.SMTP_USER}`,
-    to: artist.email,
-    subject: 'Connection notification',
-    html: `
+	return {
+		from: `"${process.env.SMTP_USERNAME}"<${process.env.SMTP_USER}`,
+		to: artist.email,
+		subject: 'Connection notification',
+		html: `
     <body styles={{display: 'flex', justify-content: 'center', align-items: 'center'}}>
       <h1>Hello, ${artist.name},</h1>
       <p>
@@ -80,16 +80,16 @@ const connectionRequest = (artist, client) => {
       </p>
     </body>
   `,
-    text: `Go to your profile, you have notifications, ${artist.name}`,
-  }
-}
+		text: `Go to your profile, you have notifications, ${artist.name}`,
+	};
+};
 
 const connectionConfirmation = (artist, client) => {
-  return {
-    from: `"${process.env.SMTP_USERNAME}"<${process.env.SMTP_USER}`,
-    to: client.email,
-    subject: 'Connection notification',
-    html: `
+	return {
+		from: `"${process.env.SMTP_USERNAME}"<${process.env.SMTP_USER}`,
+		to: client.email,
+		subject: 'Connection notification',
+		html: `
     <body styles={{display: 'flex', justify-content: 'center', align-items: 'center'}}>
       <h1>Hello, ${client.name},</h1>
       <p>
@@ -97,16 +97,16 @@ const connectionConfirmation = (artist, client) => {
       </p>
     </body>
   `,
-    text: `Go to your profile, you have notifications ${client.name}`,
-  }
-}
+		text: `Go to your profile, you have notifications ${client.name}`,
+	};
+};
 
 module.exports = {
-  transporter,
-  verify,
-  welcome,
-  contractAlert,
-  connectionConfirmation,
-  contractConfirmation,
-  connectionRequest,
-}
+	transporter,
+	verify,
+	welcome,
+	contractAlert,
+	connectionConfirmation,
+	contractConfirmation,
+	connectionRequest,
+};
