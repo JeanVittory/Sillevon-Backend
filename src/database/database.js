@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
+const env = require('../config/dotenv');
 
-const mongoUri = process.env.MONGODB_URI;
+const mongoUri = env.MONGODB_URI;
 
 const optionsConnection = {
 	useNewUrlParser: true,
