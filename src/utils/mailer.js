@@ -1,12 +1,13 @@
 const nodemailer = require('nodemailer');
+const env = require('../config/dotenv');
 
 const transporter = nodemailer.createTransport({
-	host: process.env.SMTP_HOST,
-	port: process.env.SMTP_PORT,
+	host: env.SMTP_HOST,
+	port: env.SMTP_PORT,
 	secure: true,
 	auth: {
-		user: process.env.SMTP_USER,
-		pass: process.env.SMTP_PASS,
+		user: env.SMTP_USER,
+		pass: env.SMTP_PASS,
 	},
 });
 
@@ -19,7 +20,7 @@ const verify = async (transporter) => {
 
 const welcome = (user) => {
 	return {
-		from: `"${process.env.SMTP_USERNAME}"<${process.env.SMTP_USER}`,
+		from: `"${env.SMTP_USERNAME}"<${process.env.SMTP_USER}`,
 		to: user.email,
 		subject: 'Welcome to Sillevon',
 		html: `
@@ -36,7 +37,7 @@ const welcome = (user) => {
 
 const contractAlert = (client, artist) => {
 	return {
-		from: `"${process.env.SMTP_USERNAME}"<${process.env.SMTP_USER}`,
+		from: `"${env.SMTP_USERNAME}"<${process.env.SMTP_USER}`,
 		to: artist.email,
 		subject: 'Contract notification',
 		html: `
@@ -52,7 +53,7 @@ const contractAlert = (client, artist) => {
 };
 const contractConfirmation = (client, artist) => {
 	return {
-		from: `"${process.env.SMTP_USERNAME}"<${process.env.SMTP_USER}`,
+		from: `"${env.SMTP_USERNAME}"<${process.env.SMTP_USER}`,
 		to: artist.email,
 		subject: 'Contract notification',
 		html: `
@@ -69,7 +70,7 @@ const contractConfirmation = (client, artist) => {
 
 const connectionRequest = (artist, client) => {
 	return {
-		from: `"${process.env.SMTP_USERNAME}"<${process.env.SMTP_USER}`,
+		from: `"${env.SMTP_USERNAME}"<${process.env.SMTP_USER}`,
 		to: artist.email,
 		subject: 'Connection notification',
 		html: `
@@ -86,7 +87,7 @@ const connectionRequest = (artist, client) => {
 
 const connectionConfirmation = (artist, client) => {
 	return {
-		from: `"${process.env.SMTP_USERNAME}"<${process.env.SMTP_USER}`,
+		from: `"${env.SMTP_USERNAME}"<${process.env.SMTP_USER}`,
 		to: client.email,
 		subject: 'Connection notification',
 		html: `

@@ -2,10 +2,11 @@ require('dotenv').config();
 const express = require('express');
 const morgan = require('morgan');
 const cors = require('cors');
-const { connectDB } = require('./database');
+const { connectDB } = require('./database/database');
 const { routesConfig } = require('./routes.config');
 const http = require('http');
 const { Server } = require('socket.io');
+const env = require('./config/dotenv');
 
 const SokectServer = Server;
 const app = express();
@@ -17,7 +18,7 @@ app.use(morgan('dev'));
 
 const io = new SokectServer(server, {
 	cors: {
-		origin: [process.env.FRONTEND_DEVELOPMENT_URI, process.env.FRONTEND_PRODUCTION_URI],
+		origin: [env.FRONTEND_PRODUCTION_URI],
 		credentials: true,
 	},
 });

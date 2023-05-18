@@ -1,0 +1,66 @@
+[
+	{
+		"title": "Rock",
+		"instrumentation": ["Guitar", "Drums", "Bass", "Keys"]
+	},
+	{
+		"title": "Salsa",
+		"instrumentation": ["Bongoes", "Congas", "Bass", "Piano", "Timbals", "Trumpets"]
+	},
+	{
+		"title": "Pop",
+		"instrumentation": ["Piano", "Drums", "Bass", "Synthetizers", "Guitar"]
+	},
+	{
+		"title": "Orchestral",
+		"instrumentation": ["Violin", "Cello", "Timbals", "Piano", "Trumpets"]
+	},
+	{
+		"title": "Vallenato",
+		"instrumentation": ["Violin", "Cello", "Timbals", "Piano", "Trumpets"]
+	},
+	{
+		"title": "Rap",
+		"instrumentation": ["Violin", "Cello", "Timbals", "Piano", "Trumpets"]
+	},
+	{
+		"title": "Hip-Hop",
+		"instrumentation": ["Violin", "Cello", "Timbals", "Piano", "Trumpets"]
+	},
+	{
+		"title": "Jazz",
+		"instrumentation": ["Violin", "Cello", "Timbals", "Piano", "Trumpets"]
+	},
+	{
+		"title": "R&B",
+		"instrumentation": ["Violin", "Cello", "Timbals", "Piano", "Trumpets"]
+	},
+	{
+		"title": "Metal",
+		"instrumentation": ["Violin", "Cello", "Timbals", "Piano", "Trumpets"]
+	},
+	{
+		"title": "Hardcore",
+		"instrumentation": ["Violin", "Cello", "Timbals", "Piano", "Trumpets"]
+	},
+	{
+		"title": "Punk",
+		"instrumentation": ["Violin", "Cello", "Timbals", "Piano", "Trumpets"]
+	},
+	{
+		"title": "Math Rock",
+		"instrumentation": ["Violin", "Cello", "Timbals", "Piano", "Trumpets"]
+	},
+	{
+		"title": "Cumbia",
+		"instrumentation": ["Violin", "Cello", "Timbals", "Piano", "Trumpets"]
+	},
+	{
+		"title": "EDM",
+		"instrumentation": ["Violin", "Cello", "Timbals", "Piano", "Trumpets"]
+	},
+	{
+		"title": "Solist",
+		"instrumentation": ["Violin", "Cello", "Timbals", "Piano", "Trumpets"]
+	}
+]
