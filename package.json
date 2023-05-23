@@ -8,7 +8,9 @@
 		"test:coverage": "test -- --coverage",
 		"dev": "NODE_ENV=development nodemon index.js",
 		"start": "NODE_ENV=production node index.js",
-		"seeder:genres": "node src/database/seeders/genres/seeder.js"
+		"seeder:genres": "node src/database/seeders/genres/seeder.js",
+		"seeder:pricing": "node src/database/seeders/pricing/seeder.js",
+		"seeder:users": "node src/database/seeders/users/seeder.js"
 	},
 	"repository": {
 		"type": "git",

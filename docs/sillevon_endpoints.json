@@ -1,0 +1,1235 @@
+{
+	"info": {
+		"_postman_id": "c3acdc38-4691-486c-a82d-ddb1bea2ef62",
+		"name": "Project-2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23041055"
+	},
+	"item": [
+		{
+			"name": "COMMENTS",
+			"item": [
+				{
+					"name": "Comment",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4022/api/comments/new/:postId",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4022",
+							"path": [
+								"api",
+								"comments",
+								"new",
+								":postId"
+							],
+							"variable": [
+								{
+									"key": "postId",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "CONNECTION",
+			"item": [
+				{
+					"name": "Connection",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4022/api/connections/new",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4022",
+							"path": [
+								"api",
+								"connections",
+								"new"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Connection",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4022/api/connections/update/:connectionId",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4022",
+							"path": [
+								"api",
+								"connections",
+								"update",
+								":connectionId"
+							],
+							"variable": [
+								{
+									"key": "connectionId",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Connection",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4022/api/connections/delete/:connectionId",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4022",
+							"path": [
+								"api",
+								"connections",
+								"delete",
+								":connectionId"
+							],
+							"variable": [
+								{
+									"key": "connectionId",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "CONTRACTS",
+			"item": [
+				{
+					"name": "Contract",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4022/api/contracts/new",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4022",
+							"path": [
+								"api",
+								"contracts",
+								"new"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Contract",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4022/api/contracts/update",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4022",
+							"path": [
+								"api",
+								"contracts",
+								"update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Contract",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4022/api/contracts/last-update",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4022",
+							"path": [
+								"api",
+								"contracts",
+								"last-update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Accept Contract",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4022/api/contracts/accept/:contractId",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4022",
+							"path": [
+								"api",
+								"contracts",
+								"accept",
+								":contractId"
+							],
+							"variable": [
+								{
+									"key": "contractId",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "By name",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4022/api/contracts/by-name/:contractName",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4022",
+							"path": [
+								"api",
+								"contracts",
+								"by-name",
+								":contractName"
+							],
+							"variable": [
+								{
+									"key": "contractName",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Payment",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4022/api/contracts/create-payment-intent",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4022",
+							"path": [
+								"api",
+								"contracts",
+								"create-payment-intent"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Contract",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4022/api/contracts/delete/:contractId",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4022",
+							"path": [
+								"api",
+								"contracts",
+								"delete",
+								":contractId"
+							],
+							"variable": [
+								{
+									"key": "contractId",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "GENRES",
+			"item": [
+				{
+					"name": "Genre",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4022/api/genres",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4022",
+							"path": [
+								"api",
+								"genres"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Genres",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4022/api/genres",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4022",
+							"path": [
+								"api",
+								"genres"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Genre",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4022/api/genres/:genreId",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4022",
+							"path": [
+								"api",
+								"genres",
+								":genreId"
+							],
+							"variable": [
+								{
+									"key": "genreId",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Genre",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4022/api/genres/:genreId",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4022",
+							"path": [
+								"api",
+								"genres",
+								":genreId"
+							],
+							"variable": [
+								{
+									"key": "genreId",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Genre",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4022/api/genres/:genreId",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4022",
+							"path": [
+								"api",
+								"genres",
+								":genreId"
+							],
+							"variable": [
+								{
+									"key": "genreId",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "MESSAGES",
+			"item": [
+				{
+					"name": "Messages",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4022/api/messages/all/:receiverId",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4022",
+							"path": [
+								"api",
+								"messages",
+								"all",
+								":receiverId"
+							],
+							"variable": [
+								{
+									"key": "receiverId",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Message",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4022/api/messages/add",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4022",
+							"path": [
+								"api",
+								"messages",
+								"add"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "PLANS",
+			"item": [
+				{
+					"name": "Plan",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4022/api/plans/new",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4022",
+							"path": [
+								"api",
+								"plans",
+								"new"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Plans",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4022/api/plans/all",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4022",
+							"path": [
+								"api",
+								"plans",
+								"all"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Plan",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4022/api/plans/one/:planId",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4022",
+							"path": [
+								"api",
+								"plans",
+								"one",
+								":planId"
+							],
+							"variable": [
+								{
+									"key": "planId",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Plan",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4022/api/plans/update",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4022",
+							"path": [
+								"api",
+								"plans",
+								"update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Plan",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4022/api/plans/delete",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4022",
+							"path": [
+								"api",
+								"plans",
+								"delete"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "POST",
+			"item": [
+				{
+					"name": "Post",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4022/api/posts/new",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4022",
+							"path": [
+								"api",
+								"posts",
+								"new"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Post",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4022/api/posts/user-post",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4022",
+							"path": [
+								"api",
+								"posts",
+								"user-post"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Post",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4022/api/posts/update/:postId",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4022",
+							"path": [
+								"api",
+								"posts",
+								"update",
+								":postId"
+							],
+							"variable": [
+								{
+									"key": "postId",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Posts",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4022/api/posts/all",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4022",
+							"path": [
+								"api",
+								"posts",
+								"all"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "USERS",
+			"item": [
+				{
+					"name": "ThirdPart",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4022/api/users/auth0",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4022",
+							"path": [
+								"api",
+								"users",
+								"auth0"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Signup",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4022/api/users/signup",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4022",
+							"path": [
+								"api",
+								"users",
+								"signup"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Signin",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4022/api/users/signin",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4022",
+							"path": [
+								"api",
+								"users",
+								"signin"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Photos",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4022/api/users/update/form-data",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4022",
+							"path": [
+								"api",
+								"users",
+								"update",
+								"form-data"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Avatar",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4022/api/users/update-avatar",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4022",
+							"path": [
+								"api",
+								"users",
+								"update-avatar"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Regular",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4022/api/users/update-regular",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4022",
+							"path": [
+								"api",
+								"users",
+								"update-regular"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4022/api/users/update",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4022",
+							"path": [
+								"api",
+								"users",
+								"update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Data User",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4022/api/users/datauser",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4022",
+							"path": [
+								"api",
+								"users",
+								"datauser"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Artist recommended data",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4022/api/users/artist-recomended-data",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4022",
+							"path": [
+								"api",
+								"users",
+								"artist-recomended-data"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Artist Recommended",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4022/api/users/artist-recomended",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4022",
+							"path": [
+								"api",
+								"users",
+								"artist-recomended"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Artist Initial Data",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4022/api/users/artist-initial-data",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4022",
+							"path": [
+								"api",
+								"users",
+								"artist-initial-data"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Artist by email",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4022/api/users/artist-email/:email",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4022",
+							"path": [
+								"api",
+								"users",
+								"artist-email",
+								":email"
+							],
+							"variable": [
+								{
+									"key": "email",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Filtered Artists",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4022/api/users/filtered-artists",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4022",
+							"path": [
+								"api",
+								"users",
+								"filtered-artists"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "AUTH_LOCAL",
+			"item": [
+				{
+					"name": "ThirdPart",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4022/auth/local/auth0",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4022",
+							"path": [
+								"auth",
+								"local",
+								"auth0"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Signup",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4022/auth/local/signup",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4022",
+							"path": [
+								"auth",
+								"local",
+								"signup"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Signin",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4022/auth/local/signin",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4022",
+							"path": [
+								"auth",
+								"local",
+								"signin"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Photos",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4022/auth/local/update/form-data",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4022",
+							"path": [
+								"auth",
+								"local",
+								"update",
+								"form-data"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Avatar",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4022/auth/local/update-avatar",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4022",
+							"path": [
+								"auth",
+								"local",
+								"update-avatar"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Regular",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4022/auth/local/update-regular",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4022",
+							"path": [
+								"auth",
+								"local",
+								"update-regular"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4022/auth/local/update",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4022",
+							"path": [
+								"auth",
+								"local",
+								"update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Data User",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4022/auth/local/datauser",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4022",
+							"path": [
+								"auth",
+								"local",
+								"datauser"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Artist recommended data",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4022/auth/local/artist-recomended-data",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4022",
+							"path": [
+								"auth",
+								"local",
+								"artist-recomended-data"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Artist Recommended",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4022/auth/local/artist-recomended",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4022",
+							"path": [
+								"auth",
+								"local",
+								"artist-recomended"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Artist Initial Data",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4022/auth/local/artist-initial-data",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4022",
+							"path": [
+								"auth",
+								"local",
+								"artist-initial-data"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Filtered Artists",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4022/auth/local/filtered-artists",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4022",
+							"path": [
+								"auth",
+								"local",
+								"filtered-artists"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
