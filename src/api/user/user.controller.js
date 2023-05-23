@@ -100,7 +100,6 @@ const updatePhotoshandler = async (req, res) => {
 		const userUpdated = await updateUserPhotos(userData);
 		return res.status(200).json({ message: 'User updated', data: userUpdated });
 	} catch (e) {
-		console.log(e);
 		return res.status(400).json({ message: 'User could not be update', data: e });
 	}
 };
@@ -148,13 +147,16 @@ async function oneUserHandler(req, res) {
 async function filteredArtistHandler(req, res) {
 	const { city, limit, page, price, instrument, genre } = req.query;
 	try {
-		const artists = await filteredArtist(city, limit, page, instrument, genre);
-		const priceParsed = JSON.parse(price);
-		if (priceParsed[0] > 0 && priceParsed[1] > 0) {
-			const byPrice = artists.docs.filter(
-				(artist) => artist.price >= priceParsed[0] && artist.price <= priceParsed[1]
-			);
-			return res.status(200).json({ message: 'Artist found', data: { docs: byPrice } });
+		const artists = await filteredArtist(city, limit, page, instrument, genre, price);
+		if (price) {
+			const priceParsed = JSON.parse(price);
+			if (priceParsed[0] > 0 && priceParsed[1] > 0) {
+				const byPrice = artists.docs.filter((artist) => {
+
+					return artist.price >= priceParsed[0] && artist.price <= priceParsed[1] + 1;
+				});
+				return res.status(200).json({ message: 'Artist found', data: { docs: byPrice } });
+			}
 		} else {
 			return res.status(200).json({ message: 'Artist found', data: artists });
 		}

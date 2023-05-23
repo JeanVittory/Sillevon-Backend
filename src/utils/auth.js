@@ -6,7 +6,7 @@ const authenticate = async (req, res, next) => {
 	try {
 		const { authorization } = req.headers;
 		if (!authorization) {
-			throw new Error('The session has expired by athorization');
+			throw new Error('The session has expired by authorization');
 		}
 		const [_, token] = authorization.split(' ');
 		if (!token) {

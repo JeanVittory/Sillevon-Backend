@@ -1,0 +1,56 @@
+[
+	{
+		"title": "Single",
+		"features": [
+			"1 show",
+			"0 arstist changes",
+			"Manual rehearsal amount",
+			"No Repertorie to assign",
+			"1 location"
+		],
+		"billing": "yearly",
+		"description": "Perfect for a single show",
+		"price": 0
+	},
+	{
+		"title": "Plus",
+		"features": ["4 shows", "2 arstist changes", "4 rehearsal", "Repertorie to assign", "2 location"],
+		"billing": "yearly",
+		"description": "The perfect plan for  medium business",
+		"price": 480
+	},
+	{
+		"title": "Light",
+		"features": ["2 shows", "0 arstist changes", "1 rehearsal", "Repertorie to assign", "1 location"],
+		"billing": "yearly",
+		"description": "The perfect plan for  small business",
+		"price": 280
+	},
+	{
+		"title": "Single",
+		"features": [
+			"1 show",
+			"0 arstist changes",
+			"Manual rehearsal amount",
+			"No Repertorie to assign",
+			"1 location"
+		],
+		"billing": "monthly",
+		"description": "Perfect for a single show",
+		"price": 0
+	},
+	{
+		"title": "Plus",
+		"features": ["4 shows", "2 arstist changes", "4 rehearsal", "Repertorie to assign", "2 location"],
+		"billing": "monthly",
+		"description": "The perfect plan for  medium business",
+		"price": 50
+	},
+	{
+		"title": "Light",
+		"features": ["2 shows", "0 arstist changes", "1 rehearsal", "Repertorie to assign", "1 location"],
+		"billing": "monthly",
+		"description": "The perfect plan for  small business",
+		"price": 30
+	}
+]

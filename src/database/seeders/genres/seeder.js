@@ -8,8 +8,6 @@ mongoose.connect(env.MONGODB_URI, {
 	useUnifiedTopology: true,
 });
 
-console.log(process.env.MONGODB_URI);
-
 const seeder = async () => {
 	try {
 		await genresModel.create(genres);

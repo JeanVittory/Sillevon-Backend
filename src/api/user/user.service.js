@@ -88,7 +88,7 @@ function oneUser(email) {
 	});
 }
 
-function filteredArtist(city, limit, page, instrument, genre) {
+async function filteredArtist(city, limit, page, instrument, genre, price) {
 	if (city && instrument && genre) {
 		return User.paginate(
 			{ city, instrument, genre, mode: 'artist/band' },
@@ -145,6 +145,19 @@ function filteredArtist(city, limit, page, instrument, genre) {
 				page: parseInt(page) || 1,
 			}
 		);
+	} else if (price) {
+		const min = price[0];
+		const max = price[1];
+		const priceParsed = JSON.parse(price);
+
+		const result = await User.paginate(
+			{ mode: 'artist/band', price: { $gte: priceParsed[0], $lte: priceParsed[1] } },
+			{
+				limit: parseInt(limit) || 10,
+				page: parseInt(page) || 1,
+			}
+		);
+		return result;
 	} else {
 		return User.paginate(
 			{ mode: 'artist/band' },
