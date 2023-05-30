@@ -1,15 +1,15 @@
 const {
-  updateConnectionHandler,
-  createConnectionHandler,
-  deleteConnectionHandler,
-} = require('./connection.controller')
-const express = require('express')
-const { authenticate } = require('../../utils/auth')
+	updateConnectionHandler,
+	createConnectionHandler,
+	deleteConnectionHandler,
+} = require('./connection.controller');
+const express = require('express');
+const { authenticate } = require('../../utils/auth');
 
-const router = express.Router()
+const router = express.Router();
 
-router.post('/new', authenticate, createConnectionHandler)
-router.put('/update/:connectionId', authenticate, updateConnectionHandler)
-router.delete('/delete/:connectionId', authenticate, deleteConnectionHandler)
+router.post('/new', authenticate, createConnectionHandler);
+router.put('/update/:connectionId', authenticate, updateConnectionHandler);
+router.delete('/delete/:connectionId', authenticate, deleteConnectionHandler);
 
-module.exports = router
+module.exports = router;

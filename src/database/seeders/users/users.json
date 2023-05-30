@@ -1,0 +1,340 @@
+[
+	{
+		"name": "John Doe",
+		"email": "john@gmail.com",
+		"password": "1234",
+		"terms": true,
+		"mode": "customer",
+		"city": "Cali",
+		"price": 50,
+		"instrument": "Guitar",
+		"genre": "Rock",
+		"imagesDone": {
+			"avatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=580&q=80",
+			"background": "https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+		},
+		"location": {
+			"lat": 3.42158,
+			"lng": -76.5205
+		},
+		"skills": {
+			"improvisation": 8,
+			"show": 10,
+			"repertoire": 5,
+			"versatility": 7,
+			"instrumentation": 3
+		}
+	},
+	{
+		"name": "Carlos Diaz",
+		"email": "charles@gmail.com",
+		"password": "1234",
+		"terms": true,
+		"mode": "artist/band",
+		"city": "Bogotá",
+		"price": 30,
+		"instrument": "Guitar",
+		"genre": "Rock",
+		"imagesDone": {
+			"avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=580&q=80",
+			"background": "https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+		},
+		"location": {
+			"lat": 3.42158,
+			"lng": -76.5205
+		},
+		"skills": {
+			"improvisation": 8,
+			"show": 10,
+			"repertoire": 5,
+			"versatility": 7,
+			"instrumentation": 3
+		}
+	},
+	{
+		"name": "Liliana Zamora",
+		"email": "liliana@gmail.com",
+		"password": "1234",
+		"terms": true,
+		"mode": "artist/band",
+		"city": "Miami",
+		"price": 20,
+		"instrument": "Saxophone",
+		"genre": "Jazz",
+		"imagesDone": {
+			"avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+			"background": "https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+		},
+		"location": {
+			"lat": 3.42158,
+			"lng": -76.5205
+		},
+		"skills": {
+			"improvisation": 8,
+			"show": 10,
+			"repertoire": 5,
+			"versatility": 7,
+			"instrumentation": 3
+		}
+	},
+	{
+		"name": "Jurgen Klopp",
+		"email": "jurgen@gmail.com",
+		"password": "1234",
+		"terms": true,
+		"mode": "artist/band",
+		"city": "Miami",
+		"price": 80,
+		"instrument": "Saxophone",
+		"genre": "Jazz",
+		"imagesDone": {
+			"avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+			"background": "https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+		},
+		"location": {
+			"lat": 3.42158,
+			"lng": -76.5205
+		},
+		"skills": {
+			"improvisation": 8,
+			"show": 10,
+			"repertoire": 5,
+			"versatility": 7,
+			"instrumentation": 3
+		}
+	},
+	{
+		"name": "Mike Contreras",
+		"email": "mike@gmail.com",
+		"password": "1234",
+		"terms": true,
+		"mode": "artist/band",
+		"city": "San José",
+		"price": 10,
+		"instrument": "Drums",
+		"genre": "Metal",
+		"imagesDone": {
+			"avatar": "https://images.unsplash.com/flagged/photo-1573740144655-bbb6e88fb18a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80",
+			"background": "https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+		},
+		"location": {
+			"lat": 3.42158,
+			"lng": -76.5205
+		},
+		"skills": {
+			"improvisation": 8,
+			"show": 10,
+			"repertoire": 5,
+			"versatility": 7,
+			"instrumentation": 3
+		}
+	},
+	{
+		"name": "Laura Monsalve",
+		"email": "lau@gmail.com",
+		"password": "1234",
+		"terms": true,
+		"mode": "artist/band",
+		"city": "Washington",
+		"price": 70,
+		"instrument": "Bass",
+		"genre": "Metal",
+		"imagesDone": {
+			"avatar": "https://images.unsplash.com/photo-1586297135537-94bc9ba060aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=580&q=80",
+			"background": "https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+		},
+		"location": {
+			"lat": 3.42158,
+			"lng": -76.5205
+		},
+		"skills": {
+			"improvisation": 8,
+			"show": 10,
+			"repertoire": 5,
+			"versatility": 7,
+			"instrumentation": 3
+		}
+	},
+	{
+		"name": "Silvana Railway",
+		"email": "silva@gmail.com",
+		"password": "1234",
+		"terms": true,
+		"mode": "artist/band",
+		"city": "Bogota",
+		"price": 50,
+		"instrument": "Timbals",
+		"genre": "Salsa",
+		"imagesDone": {
+			"avatar": "https://images.unsplash.com/photo-1605993439219-9d09d2020fa5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+			"background": "https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+		},
+		"location": {
+			"lat": 3.42158,
+			"lng": -76.5205
+		},
+		"skills": {
+			"improvisation": 8,
+			"show": 10,
+			"repertoire": 5,
+			"versatility": 7,
+			"instrumentation": 3
+		}
+	},
+	{
+		"name": "Federico Valverde",
+		"email": "fede@gmail.com",
+		"password": "1234",
+		"terms": true,
+		"mode": "artist/band",
+		"city": "Bogota",
+		"price": 45,
+		"instrument": "Piano",
+		"genre": "Jazz",
+		"imagesDone": {
+			"avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+			"background": "https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+		},
+		"location": {
+			"lat": 3.42158,
+			"lng": -76.5205
+		},
+		"skills": {
+			"improvisation": 8,
+			"show": 10,
+			"repertoire": 5,
+			"versatility": 7,
+			"instrumentation": 3
+		}
+	},
+	{
+		"name": "Rick Sánchez",
+		"email": "rick@gmail.com",
+		"password": "1234",
+		"terms": true,
+		"mode": "artist/band",
+		"city": "Santa Marta",
+		"price": 100,
+		"instrument": "Piano",
+		"genre": "Jazz",
+		"imagesDone": {
+			"avatar": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+			"background": "https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+		},
+		"location": {
+			"lat": 3.42158,
+			"lng": -76.5205
+		},
+		"skills": {
+			"improvisation": 8,
+			"show": 10,
+			"repertoire": 5,
+			"versatility": 7,
+			"instrumentation": 3
+		}
+	},
+	{
+		"name": "Sonia Serena",
+		"email": "sonic@gmail.com",
+		"password": "1234",
+		"terms": true,
+		"mode": "artist/band",
+		"city": "Barranquilla",
+		"price": 65,
+		"instrument": "Piano",
+		"genre": "Jazz",
+		"imagesDone": {
+			"avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=461&q=80",
+			"background": "https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+		},
+		"location": {
+			"lat": 3.42158,
+			"lng": -76.5205
+		},
+		"skills": {
+			"improvisation": 8,
+			"show": 10,
+			"repertoire": 5,
+			"versatility": 7,
+			"instrumentation": 3
+		}
+	},
+	{
+		"name": "Josh Riquelme",
+		"email": "joshi@gmail.com",
+		"password": "1234",
+		"terms": true,
+		"mode": "artist/band",
+		"city": "Bogota",
+		"price": 90,
+		"instrument": "Piano",
+		"genre": "Jazz",
+		"imagesDone": {
+			"avatar": "https://images.unsplash.com/photo-1531891437562-4301cf35b7e4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=464&q=80",
+			"background": "https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+		},
+		"location": {
+			"lat": 3.42158,
+			"lng": -76.5205
+		},
+		"skills": {
+			"improvisation": 8,
+			"show": 10,
+			"repertoire": 5,
+			"versatility": 7,
+			"instrumentation": 3
+		}
+	},
+	{
+		"name": "Marie Jane",
+		"email": "marie@gmail.com",
+		"password": "1234",
+		"terms": true,
+		"mode": "artist/band",
+		"city": "New York",
+		"price": 10,
+		"instrument": "Singer",
+		"genre": "Jazz",
+		"imagesDone": {
+			"avatar": "https://images.unsplash.com/photo-1531123414780-f74242c2b052?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+			"background": "https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+		},
+		"location": {
+			"lat": 3.42158,
+			"lng": -76.5205
+		},
+		"skills": {
+			"improvisation": 8,
+			"show": 10,
+			"repertoire": 5,
+			"versatility": 7,
+			"instrumentation": 3
+		}
+	},
+	{
+		"name": "Carlos Joma",
+		"email": "chirilito@gmail.com",
+		"password": "1234",
+		"terms": true,
+		"mode": "artist/band",
+		"city": "Bogota",
+		"price": 55,
+		"instrument": "Singer",
+		"genre": "Rock",
+		"imagesDone": {
+			"avatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=580&q=80",
+			"background": "https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+		},
+		"location": {
+			"lat": 3.42158,
+			"lng": -76.5205
+		},
+		"skills": {
+			"improvisation": 8,
+			"show": 10,
+			"repertoire": 5,
+			"versatility": 7,
+			"instrumentation": 3
+		}
+	}
+]
